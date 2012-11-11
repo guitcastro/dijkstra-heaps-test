@@ -12,7 +12,6 @@
 #define BOOST_GRAPH_DIJKSTRA_TESTING
 
 // use a modified version of dijkstra_shortest_paths.hpp
-// where we use fibonacci_heap instead relaxed
 #include "dijkstra_shortest_paths.hpp"
 #include <boost/graph/adjacency_list.hpp>
 #include <boost/random/linear_congruential.hpp>
