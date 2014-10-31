@@ -63,7 +63,7 @@ namespace boost {
     Q.update(vertex);
   }
 
-  static bool dijkstra_heap = relaxed_kind;
+  static int dijkstra_heap = relaxed_kind;
 
 
   template <class Visitor, class Graph>
