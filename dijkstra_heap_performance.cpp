@@ -40,10 +40,10 @@ void test(int n)
   double binary_heap_time = 0.0;
   double relaxed_heap_time = 0.0;
   double d_ary_heap_time = 0.0;
-  int numberOftests = 50;
+  int numberOftests = 5;
   unsigned m = (n * (n -1)) /2;
   std::cout<<m<<"\n";
-  return;
+  //  return;
   for (int i = 0;i< numberOftests;i++){
 	  
 	  
